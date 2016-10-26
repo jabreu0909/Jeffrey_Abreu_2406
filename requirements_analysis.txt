@@ -1,0 +1,31 @@
+21)Describe between two and four functional requirements that will fulfill the needs of the clients.
+
+1) Save money on purchasing and maintenance of local storage
+2) Convenience of accessing your data from anywhere with an internet connection
+3) Data is encrypted when stored on drives
+
+
+
+22)Describe between two and four functional requirements that will fulfill the needs of the suppliers?
+
+1) Convenience of accessing your data from anywhere with an internet connection
+2) 
+3) 
+
+
+
+
+23)Describe between two and four functional requirements that will help someone administer the proposed information system.
+
+1) 
+2) 
+
+
+
+24)Describe between two and four functional requirements that will help analyze the quality of the company’s operations and inform strategic decisions.
+
+1) Reports on the type of the data stored
+2) Report on what type of disk the data is stored
+3) What kind of data gets accessed the most
+4) Reports on which locations get accessed more data traffic
+

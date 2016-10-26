@@ -1,0 +1,27 @@
+14)What information system is being proposed to be designed?
+
+
+
+
+15)Describe why the company needs it and why the company would be better off after it is in place.
+
+The system can reduce the amount of items a person needs to carry such as external drives. There is also the conveniency of accessing your data from anywhere and any device that can connect to the internet. 
+
+
+
+16)Provide an estimate of how long it will take to design, implement, and install it.
+Design —> 3 months
+Implementation -> 2 months
+Installation -> 1 month
+
+Provide an estimate of how much will the system design, implementation, and installation cost?
+
+Design
+10 employees -> 40k Salary -> $9,000 for 3 months design time -> 9,000 * 10 = 90k
+
+
+Implementation
+20 employees -> 60k salary -> $10,000 for 2 months implementation -> 10,000 * 20 = 200k
+
+Installation
+Warehouse to host datacenter —> approx 100K monthly

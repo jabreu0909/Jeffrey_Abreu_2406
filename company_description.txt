@@ -3,10 +3,12 @@
 IT Enterprise Solutions
 
 
+
 2) How many locations do they have?
 
 There are 2 locations.
 One on the west coast and one on the east coast.
+
 
 
 3) How many employees?
@@ -14,24 +16,47 @@ One on the west coast and one on the east coast.
 50 employees
 
 
+
 4) What do they sell or how do they generate revenue?
 
 They sell hard drive space. People can store any file they like on our servers for easy access from our website from pc or mobile.
+
+
+
 
 5) Give an estimate of their gross annual revenue
 
 10 (cost of transaction) * 1,000 (number of daily transactions) * 
 30 (days) * 12 (months) =  $3,600,000 (Annual Gross Income)
 
+
+
+
 6) What transactions occur in your company’s daily operations?
 
 User request space = $10 —> User is granted space
+
+
 
 7) How many transactions occur per day?
 
 On Average 1000 transactions daily
 
+
+
 8)What is the data throughput that the company’s system experiences daily?
+
+If 1000 transactions occur at a base of 2GB(free for user signing up) then 
+
+Storage
+1000 * 2 = 2TB = 2000000000000 Bytes —>  Estimate Minimum amount of storage being used daily
+                 
+Profile Creation —> Estimate Profile creation 
+Name = 25 bytes
+Email = 50 bytes
+Username = 20 bytes
+Credit Card = 25 bytes
+
 
 
 9)Describe the clients of your system?

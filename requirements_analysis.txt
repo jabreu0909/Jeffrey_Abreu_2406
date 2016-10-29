@@ -3,7 +3,7 @@
 1) Save money on purchasing and maintenance of local storage
 2) Convenience of accessing your data from anywhere with an internet connection
 3) Data is encrypted when stored on drives
-
+hello
 
 
 22)Describe between two and four functional requirements that will fulfill the needs of the suppliers?

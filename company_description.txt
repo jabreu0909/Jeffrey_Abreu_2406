@@ -1,73 +1,31 @@
-1) What's the company name?
-
-IT Enterprise Solutions
-
-
-
-2) How many locations do they have?
-
-There are 2 locations.
-One on the west coast and one on the east coast.
-
-
-
-3) How many employees?
-
-50 employees
-
-
-
-4) What do they sell or how do they generate revenue?
-
-They sell hard drive space. People can store any file they like on our servers for easy access from our website from pc or mobile.
-
-
-
-
-5) Give an estimate of their gross annual revenue
-
-10 (cost of transaction) * 1,000 (number of daily transactions) * 
-30 (days) * 12 (months) =  $3,600,000 (Annual Gross Income)
-
-
-
-
-6) What transactions occur in your company’s daily operations?
-
-User request space = $10 —> User is granted space
-
-
-
-7) How many transactions occur per day?
-
-On Average 1000 transactions daily
-
-
-
-8)What is the data throughput that the company’s system experiences daily?
-
-If 1000 transactions occur at a base of 2GB(free for user signing up) then 
-
-Storage
-1000 * 2 = 2TB = 2000000000000 Bytes —>  Estimate Minimum amount of storage being used daily
-                 
-Profile Creation —> Estimate Profile creation 
-Name = 25 bytes
-Email = 50 bytes
-Username = 20 bytes
-Credit Card = 25 bytes
-
-
-
-9)Describe the clients of your system?
-
-My clients are regular people and businesses that have a need to 
-reserve cloud space for their files or their servers. 
-
-10) Describe the suppliers of your system?
-
-The suppliers of my system would be newegg & cdwg for parts to system. 
-Hvac for the systems in the datacenter
-Electricity to power the systems.
-
-
+The Taxi Federation is the highest trending cab service and is a quick and reliable transportation application. We operate in over 50 countries worldwide. We collect 15% of each transaction our drivers make. We operate using GPS software to place drivers to nearby requesting clients, after the client chooses a location we then pair them with the closest driver.. After arriving at the desired destination all information such as time, place and distance traveled is stored as a record then the transaction ends. 
+How big: Multinational
+Yearly Revenue: Keeps 15% of transactions, So about $10,000,000
+Locations: 50 countries 
+What do they sell: Taxi Services
+How they make money: Transporting a passenger to their destination
+How many people use the application: over 30 million 
+How many people drive for your service: On average 200,000 
+Transactions
+Per hour: 4,166 (100,000 / 24 hours in a day)
+Per day: 100,000 (700k / 7 days a week)
+Per week: 700,000 (100kx7 days)
+Per month: 1.2M (700kx4 weeks)
+Per year:10 million (3.2Mx12 months)
+Transactions (New york only)
+Per hour: 300
+Per day: 7200
+Per week: 50400
+Per month: 201600
+Per year: 2.42M 
+Data Requirements
+High Scale Computing: A distributed computing environment where the volume of data and the demand for specific types of workload can be accommodated quickly. 
+WANS: Multiple cities containing WANS, preferably use 10 Gigabit Ethernet LAN PHY as it provides 10G bit/s, more than enough to accompany even thousands of clients simultaneously.
+Throughput: Only a clients request and transaction will be packed and sent to through the server. One request consists of DriverID (5-6 INT’s (4 bytes ea=8bits ea) = 40-48 bits, UserID (also  40-48 bits), location (5-20 characters = 50-160 bits), date and time(10 numbers = about 80 bits) in total adding up to approximately 340 bits for the request throughput of one client. The transaction consists of the same information as the request (340bits) in addition to transactionID and payment amount, which would go up to 550-600 bits of data. Since this operation would only launch in New York, estimating about 300 requests in an hour, the maximum number of requests simultaneously would be (300 requests/ 60 minutes = 5 a minute) so ideally and preferably having 10 servers would eliminate potential conflict.
+Purpose: Keep record as proof/to gather raw data/create collective data.
+Clients: Those requesting a taxi
+Suppliers: Gas stations (exxon , BP,)
+Businesses we rely on: Business specific credit cards 
+Transactions: Multiple client requests responded to immediately, continuous and simultaneous flow of various driver/client before and after data transactions to store. 
+Money made per transaction: Base fare + Time + Distance
+Data Storage System: Data Warehouse

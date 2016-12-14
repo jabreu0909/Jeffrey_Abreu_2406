@@ -21,27 +21,3 @@ TOTAL: 300k + 450k + 150k + 67k + 75k + 100k= $1,142,000
 People in business: Owners, managers, drivers, programmers, and analysts
 # of People in on the project: 16
 People required for project: Senior and college graduates in Software Engineering, Data Analysts, Project Managers and Mathematicians.
-Problem Analysis
-Current and future OS: The current system operates by starting with the request of a client, which pulls and displays their location and nearby drivers via GPS, they are able to look at a photo of the driver and their rating. After deciding on who, our tracking system records the driver, user, time and location. After arriving our system records the time and destination. Finally, arriving at the destination our system takes note of time elapsed, distance and amount to pay. With our new system coming, the improvements are relatively similar in a way they adapt more than 1 passenger, more than 1 location and more than 1 destination, and a transaction for each of the passengers computed with their tangent discount.
-5 System Problems
-1) The current system does not have a section devoted to this new system. Create option for driver to be part of the new proposed multi-ride system, reconfigure and add this additional feature as an option for clients using the app or online website.
-2) There is no way for the current system to intake the new flow of information needed to analyze the status of the proposed system. An additional directory/storage device to adapt and archive the new flow of data.
-3) Currently our system only allows for the simple transaction of satisfying a client from location to destination. We require new programs, algorithms and procedures for calculating locations, distances and prices. How would the algorithm give 100% efficiency / effectiveness for potential rides of client choices to their current location and their destination?
-4) Our system would not support an instance where two clients request same ride, and on the way to 2nd client the request is canceled.
-5) There isn’t an option for drivers to either be forced or free to decide if they’d be a multi driver. What if there are no close ride or it would take too long for one to arrive?
-5 System Improvement Objectives
-1) Re-configure the app and website to fit in the new feature option dimensions.
-2) Create a relatively similar but more adaptive directory that suits our new operations means
-3) Effectiveness is simply to hail the closest available driver that is not multi-riding; Efficiency on the other hand would save the client money but use more of their time. Extra time taken on tangent path is divided by 2 giving us x, then x is deducted from all boarded passenger’s costs after the completion of their ride.
-4) In that case, the moment the request is canceled the driver would return back on course and from the time taken off tangent until the destination will be reduced from the final cost payment.
-5) We would allow the driver to decide whether they would like to participate as a Multi-rider or not. Show GPS locations of other Uber drivers and locations that require attention/hotspots/common places of requests
-Business Process Requirements:
-Passenger
-1) Download free app/ use online web and log into your account
-2) Choose vehicle type: black car, Taxi,, SUV, LUX. (or use nearby drivers)
-3) Mark your location and wait in front of given address
-4) Payment processed through credit card information once ride is complete
-Driver
-After logging in, choose car type and submit which will activate your GPS location and you’re in business.
-Data Storage
-I believe a Data warehouse is required due to needing a tremendous amount of data organized by rows. In addition, the data has to be up to date and we need to keep all historical data as well. Need to store user account information from both drivers and clients.

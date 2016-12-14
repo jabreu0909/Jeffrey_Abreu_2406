@@ -1,27 +1,47 @@
-14)What information system is being proposed to be designed?
-
-
-
-
-15)Describe why the company needs it and why the company would be better off after it is in place.
-
-The system can reduce the amount of items a person needs to carry such as external drives. There is also the conveniency of accessing your data from anywhere and any device that can connect to the internet. 
-
-
-
-16)Provide an estimate of how long it will take to design, implement, and install it.
-Design —> 3 months
-Implementation -> 2 months
-Installation -> 1 month
-
-Provide an estimate of how much will the system design, implementation, and installation cost?
-
-Design
-10 employees -> 40k Salary -> $9,000 for 3 months design time -> 9,000 * 10 = 90k
-
-
-Implementation
-20 employees -> 60k salary -> $10,000 for 2 months implementation -> 10,000 * 20 = 200k
-
-Installation
-Warehouse to host datacenter —> approx 100K monthly
+Intent of project: To preserve time of drivers and money of clients, being as efficient as can be to use more if not all the space in the vehicle to satisfy more than 1 customers’ needs heading to the same direction at about the same time.
+WHAT: What the new system is designed to do is, adding this extra feature would allow potential clients to drive with another passenger riding to a relatively similar destination. 
+WHY: This would not only save passengers’ money making it more desirable for them to use us, but also make potential employees(drivers) eager to join us as we are to develop a feature not yet promoted by any other vehicle service company. Furthermore, it would create a more efficient environment where the quantity of requests is satisfied to benefit the passenger, and the driver.
+HOW: Since our employee fee will remain 15% per completed ride, our mission is to have more drivers and requests for a ride.
+Time frame: 1 Year (estimated in the budget section)
+User interface
+The Web / App modification shouldn’t take very long as it is the simplest part of the system, taking from a week – 3 weeks for each modification (App and Web) to not only be designed but hooked up to our new system. In total about a month in time for this part of the system.
+Software
+The most complex and complicated part of our system, first the mathematical experts would need to design an algorithm that connects 2 or more passenger requests to a relatively similar destination, and create the calculation of transaction to generate more profit for us and the driver, and deduct expenses for the passenger(s). This would require at least 8 months of creating and testing until the satisfactory result is achieved. At the same time, our programming team would need to cooperate with the mathematicians to understand their necessities, which ultimately depend on the success of this feature. However, without the software to drive these computations and calculations nothing would work so I estimate the same 8 months of time for this part of the project. Overall, I would predict that this would take from 9-11 months to link, test and make it function.
+Data Storage
+Our programmers and analytics would be discussing the software and hardware requirements, but ultimately how data storing would operate and queried. This part of the project is not the challenging part but it isn’t the easiest either, after deciding what soft/hard ware we intend to use, creating a data flow diagram, tables, and collective data queries would take approximately from 3-4 months with the included time of how we would implement it into the system.
+Budget
+4 Mathematical Experts:(100k x 4 = 400k x 9/12months = 300k) for algorithm, computations and calculations.
+4 Senior Software Engineers: (4 x 150k = 600k x 9/12months =450k) for the building and linking of functionality from user interface through the software to our database.
+2 College grad. Software Engineers: (100k a year x 2 = 200k x 9/12months = 150k) (college grads. for the Web/App user interface).
+3 Data Analysists: (90k a year x 9/12months = 67500 per Analyst ) To interpret data, analyze results using their statistical techniques and provide reports; identify trends, filter and clean data and develop/implement data collection systems to optimize efficiency and data quality.
+2 Analytics Managers: (100k salary) As Full time employers to our corporation, but for the project time ONLY (for 9 months) we would pay 75k. (for technical and organizational skills to identify and improve business structure / solutions for complications).
+1 Scheduling Manager: (Salary from 30k-50k) We would hire for them for 9 months, paying the full 50k salary. (50k x 9/12months = 38k) (For scheduling of actions throughout project and to see through that the project is going accordingly with respect to time).
+Software and Hardware components = 100k
+TOTAL: 300k + 450k + 150k + 67k + 75k + 100k= $1,142,000
+People in business: Owners, managers, drivers, programmers, and analysts
+# of People in on the project: 16
+People required for project: Senior and college graduates in Software Engineering, Data Analysts, Project Managers and Mathematicians.
+Problem Analysis
+Current and future OS: The current system operates by starting with the request of a client, which pulls and displays their location and nearby drivers via GPS, they are able to look at a photo of the driver and their rating. After deciding on who, our tracking system records the driver, user, time and location. After arriving our system records the time and destination. Finally, arriving at the destination our system takes note of time elapsed, distance and amount to pay. With our new system coming, the improvements are relatively similar in a way they adapt more than 1 passenger, more than 1 location and more than 1 destination, and a transaction for each of the passengers computed with their tangent discount.
+5 System Problems
+1) The current system does not have a section devoted to this new system. Create option for driver to be part of the new proposed multi-ride system, reconfigure and add this additional feature as an option for clients using the app or online website.
+2) There is no way for the current system to intake the new flow of information needed to analyze the status of the proposed system. An additional directory/storage device to adapt and archive the new flow of data.
+3) Currently our system only allows for the simple transaction of satisfying a client from location to destination. We require new programs, algorithms and procedures for calculating locations, distances and prices. How would the algorithm give 100% efficiency / effectiveness for potential rides of client choices to their current location and their destination?
+4) Our system would not support an instance where two clients request same ride, and on the way to 2nd client the request is canceled.
+5) There isn’t an option for drivers to either be forced or free to decide if they’d be a multi driver. What if there are no close ride or it would take too long for one to arrive?
+5 System Improvement Objectives
+1) Re-configure the app and website to fit in the new feature option dimensions.
+2) Create a relatively similar but more adaptive directory that suits our new operations means
+3) Effectiveness is simply to hail the closest available driver that is not multi-riding; Efficiency on the other hand would save the client money but use more of their time. Extra time taken on tangent path is divided by 2 giving us x, then x is deducted from all boarded passenger’s costs after the completion of their ride.
+4) In that case, the moment the request is canceled the driver would return back on course and from the time taken off tangent until the destination will be reduced from the final cost payment.
+5) We would allow the driver to decide whether they would like to participate as a Multi-rider or not. Show GPS locations of other Uber drivers and locations that require attention/hotspots/common places of requests
+Business Process Requirements:
+Passenger
+1) Download free app/ use online web and log into your account
+2) Choose vehicle type: black car, Taxi,, SUV, LUX. (or use nearby drivers)
+3) Mark your location and wait in front of given address
+4) Payment processed through credit card information once ride is complete
+Driver
+After logging in, choose car type and submit which will activate your GPS location and you’re in business.
+Data Storage
+I believe a Data warehouse is required due to needing a tremendous amount of data organized by rows. In addition, the data has to be up to date and we need to keep all historical data as well. Need to store user account information from both drivers and clients.

@@ -1,31 +1,26 @@
-21)Describe between two and four functional requirements that will fulfill the needs of the clients.
-
-1) Save money on purchasing and maintenance of local storage
-2) Convenience of accessing your data from anywhere with an internet connection
-3) Data is encrypted when stored on drives
-hello
-
-
-22)Describe between two and four functional requirements that will fulfill the needs of the suppliers?
-
-1) Convenience of accessing your data from anywhere with an internet connection
-2) 
-3) 
-
-
-
-
-23)Describe between two and four functional requirements that will help someone administer the proposed information system.
-
-1) 
-2) 
-
-
-
-24)Describe between two and four functional requirements that will help analyze the quality of the company’s operations and inform strategic decisions.
-
-1) Reports on the type of the data stored
-2) Report on what type of disk the data is stored
-3) What kind of data gets accessed the most
-4) Reports on which locations get accessed more data traffic
-
+Client
+1) Visit website create account requiring name, photo, mobile number, email, billing information and provide a username and password.
+2) Read terms and policies, accept and activate account through email.
+Driver
+Provide their information; a name, email, mobile phone number, give a password and the city you’re located in, and tell us where did you hear about us. Furthermore, you would provide the car type you drive.
+Functional Requirements
+	Internal
+Admins/ Managers: 
+1) Retrieve information (from data analysts) to display for various participants in need of precise information such as success and failure rate of the new operations in place (Revenue/losses).
+2) Be able to login and have the authenticated privileges of banning/unbanning drivers and/or their privileges.
+Analytics: 
+1) Gather raw data (query data base) and create organized collective data/ charts, graphs to display for various participants in need of precise information.
+2) Figure out new trends and best practices for the company, for instance you can’t hail an Uber cab currently but we might be able to make it possible.
+External
+Clients: 
+1) Provide feedback after the ride about the driver/rating, the passengers and their experience with the operating system.
+2) See driver info AND accompanying passengers of the ride with their requested destination.
+Suppliers:  
+1)	Gas stations: Provide drivers with a specific credit card discounts on gas.
+2)	Drivers: Respond to requests, get location of client and travels to destination
+List of Entities
+1) The owner(s)/founder(s)
+2) The Admins, managers, business analytics and programmers
+3) The Clients
+4) The Drivers
+5) The Gas station(s)
